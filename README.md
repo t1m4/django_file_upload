@@ -8,3 +8,5 @@
    2. Windows `venv/Scripts/activate`
 4. Install requirements `pip install -r requirements.txt`
 5. Start server `python manage.py runserver`
+## Description
+1. Uploaded files saved in static directory
