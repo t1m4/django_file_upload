@@ -19,6 +19,6 @@ from django.urls import path
 from django_file_upload.views import upload_file
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', upload_file, name='upload_file')
+    path("admin/", admin.site.urls),
+    path("", upload_file, name="upload_file"),
 ]
